@@ -8,6 +8,7 @@
 ![コロン colon](https://user-images.githubusercontent.com/92184167/181501624-15c6e6ca-eaf1-4440-b53a-137f7066e602.jpg)
 ![イーブイ Ivysaur](https://user-images.githubusercontent.com/92184167/181501662-4407005d-fb6a-455d-8603-c7943cf76a5b.jpg)
 ![トゲキッス togekissu](https://user-images.githubusercontent.com/92184167/181501583-1445cf3d-70fa-4620-9f9e-f88fc22fae8f.jpg)
+![ニャース meowth](https://user-images.githubusercontent.com/92184167/181503171-9b9a453c-3e33-490e-9f41-5a4054c60f32.jpg)
 
 ## Fuentes:
 > "Como criar uma Pokedex com HTML, CSS e JavaScript | Projeto Completo" Manual do Dev
