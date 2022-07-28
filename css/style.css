@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+body{
+    /*Alinea el pokedex en el centro*/
+    text-align: center;
+    /*Pinta en celeste marmolado con blanco el fondo de atras de pokedex*/
+    background: linear-gradient(to bottom, #6ab7f5, #fff);
+    /*Donde estaba separado se hace un solo relieve*/
+    min-height: 100vh;
+}
+
+main{
+    /*background-color: red;*/
+    /*Colorea de rojo bajo pokedex*/
+    display: inline-block;
+    /*Separa un poco la parte de arriba,deja un espacio*/
+    margin-top: 2%;
+    /*Queda fijo desde cualquier dispositivo*/
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex{
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon_image{
+    position: absolute;
+    /*left: 0;*/
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-63%, 20%); 
+    /*Tamanio de la imagen. height:18% pero a mi se me achica demasiado*/
+    height: 100px;
+    /*Para achicar la imagen max-width: 30%; */ 
+    /*Para agrandar la imagen max-height: 100%;*/
+}
+
+.pokemon_data{
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 54.5%;
+    right: 27%;
+    /*Para que quede fijo la letra desde cualquier dispositivo*/
+    /*font-size: clamp(min, desejavel, max);*/
+    font-size: clamp(8px, 5vw, 25px);
+}
+
+.pokemon_name{
+    color: #3a444d;
+    /*Capitalize pone la primera letra en mayuscula,uppercase pone todo en mayuscula*/
+    text-transform: capitalize;
+
+}
+
+.form{
+    position: absolute;
+    /*background-color: red;*/
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+}
+
+.input_search{
+    width: 100%;
+    /*padding: 20px; al cambiar a un dispositivo mas chico, se va agrandando el label*/
+    padding: 4%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+    /*box-shadow: x, y, tamanio, color de sombra; -> Sombra atras de la sombra del label*/
+    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333; 
+}
+
+.buttons{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 65%;
+    /*background-color: red; Para saber donde se posiciona*/
+    transform: translate(-57%, 0);
+    /*Hace que el boton prev y next se alinee en la misma linea*/
+    display: flex;
+    /*Separa un poco los botones porque estaban pegados*/
+    gap: 20px;
+}
+
+.button{
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px 5wv 1rem);
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+    /*Sombra atras de la sombra del boton prev y next*/
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+
+.botton:active{
+    /*background-color: red; Se activa el boton cuando lo posicionas*/
+    /*Cuando lo posionas el boton se muestra presionado*/
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+}
