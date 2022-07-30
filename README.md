@@ -27,4 +27,8 @@ Juego pokedex con HTML,CSS y JavaSript
 
 > https://pokeapi.co
 
+## Más información a cerca de pokémon:
+
 > https://pokemon.fandom.com/es/wiki/Lista_de_Pokémon
+
+> https://www.pokemon.co.jp
