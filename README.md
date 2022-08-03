@@ -26,3 +26,6 @@ Esta página está buenísimo. Un fanático que averiguó detalladamente cada po
 
 Página oficial de pokémon, por si le interesa en japonés:
 > https://www.pokemon.co.jp
+
+
+![5477886](https://user-images.githubusercontent.com/92184167/182706262-0aeecacc-14b9-4be7-921d-dc7bd9444bec.png)
