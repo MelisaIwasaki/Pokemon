@@ -12,6 +12,7 @@ Juego pokedex con HTML,CSS y JavaSript
 6. Aparece la página con el juego.
 7. Ingresar el nombre o número en el pokedex y te aparece el pokemon.
 
+![dadi](https://user-images.githubusercontent.com/92184167/183006218-4092ba89-e606-48ed-b59f-d6f2916216cd.jpg)
 
 
 ## Fuentes:
@@ -29,3 +30,4 @@ Página oficial de pokémon, por si le interesa en japonés:
 
 
 
+![dido](https://user-images.githubusercontent.com/92184167/183006234-e4453c38-66e2-4b6c-9167-12f13fbca311.jpg)
